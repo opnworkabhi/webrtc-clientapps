@@ -75,14 +75,16 @@ function Login(props) {
           </form>
         </div>
         
-          {/* <div>
-            <table>
-            <tr><td> Or </td></tr>
-            <tr><td>
-            <Link to={navigate("/createScheduledRoom")} > Login as Guest </Link>
-              </td></tr>
+        <div>
+          <table>
+            <tr><td colSpan={2}>Or</td></tr>
+            <tr>
+              <td colSpan={2}>
+                <Link to="/createScheduledRoom">Login as Guest </Link>
+              </td>
+              </tr>
           </table>
-          </div> */}
+        </div> 
          
       </center>
     </div>
