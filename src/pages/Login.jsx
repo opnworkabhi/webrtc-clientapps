@@ -77,7 +77,7 @@ function Login(props) {
         
         <div>
           <table>
-            <tr><td colSpan={2}>Or</td></tr>
+            <tr align="center"><td colSpan={2}>Or</td></tr>
             <tr>
               <td colSpan={2}>
                 <Link to="/createScheduledRoom">Login as Guest </Link>
